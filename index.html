@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cine de Junior_Mora</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="grupo_texto">
+        <h1>¡Bienvenido al cine los kipitos!</h1>
+        <h3>-- Menú --</h3>
+        <p>Dinos tu edad y te recomendaremos una pelicula acorde a ella</p>
+    </div>
+
+    <div>
+        <h3>Edad: </h3>
+        <input id="edad" type="number">
+    </div>
+<h6>--</h6>
+    <div class="botonera">
+        <button onclick="drama()">Drama</button>
+        <button onclick="comedia()">Comedia</button>
+        <button onclick="musical()">Musical</button>
+        <button onclick="crimen()">Crimen</button>
+    </div>
+    <h3>Te recomendamos: </h3>
+
+    <h3 id="texto_alarma"></h3>
+
+</body>
+</html>
